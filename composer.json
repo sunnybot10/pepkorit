@@ -1,0 +1,25 @@
+{
+	"name": "pepkorit/composer",
+	"description": "A crud basic API to wrap",
+	"authors": [
+		{
+			"name" : "Sunnyboy Mathole",
+			"email": "Matholeas@gmail.com",
+			"role":  "Developer"
+		}
+	],
+	"require": {
+		 "vlucas/phpdotenv": "^2.4"
+	},
+	"require-dev":{
+
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app"
+		}
+	},
+	"autoload-dev":{
+
+	}
+}
